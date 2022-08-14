@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    /* Remove body margins */
+}
+
+.padding {
+    padding-left: 30px;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+#nav li {
+    float: left;
+    border-right: 1px solid #e1949e;
+}
+
+#nav li a {
+    display: block;
+    color: #00008B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #f8efe9;
+}
+
+#nav li a:hover {
+    background-color: #ffd456;
+}
+
+h1 {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#top {
+    background-color: #ffaabc;
+}
+
+#home,
+#work {
+    background-color: #ffe8ff;
+
+}
+
+#about,
+#resume {
+    background-color: #ffe4e1;
+}
+
+#contact {
+    background-color: #fffbc3;
+}
+
+#home h2 {
+    background-color: #ffe8ff;
+}
+
+input:focus {
+    background-color: rgba(241, 237, 175, 0.904);
+    color: #ff6f3c;
+}
+.border{
+    width: 200px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 50px 20px;
+    margin-top: 10px;
+}
+ol h4{
+    color: green;
+    text-decoration: underline;
+}
+#list li{
+    color: rgb(235, 27, 155);
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;
+}
+
+.button:hover {
+    background-color: #4038b9;
+    color: white;
+}
+
+
+footer {
+    text-align: center;
+}
